@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+
+jwt:
+  secret: wangbo9988
+  expriation: 604800
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3308/springboot
+    driver-class-name: com.mysql.cj.jdbc.Driver
